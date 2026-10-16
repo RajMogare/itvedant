@@ -15,14 +15,14 @@ export default function Dashboard() {
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-[#ECEDEF] rounded-2xl pt-10 px-8 sm:px-12 flex flex-col lg:flex-row justify-between items-center border border-[#EAEDEB] shadow-sm overflow-hidden"
+          className="bg-[#ECEDEF] rounded-2xl pt-8 sm:pt-10 px-5 sm:px-12 flex flex-col lg:flex-row justify-between items-center border border-[#EAEDEB] shadow-sm overflow-hidden"
         >
-          <div className="w-full lg:w-1/2 pb-10">
+          <div className="w-full lg:w-1/2 pb-6 sm:pb-10">
             <h1 className="font-semibold text-2xl sm:text-3xl text-[#373636]">
               Enroll in your favorite courses
             </h1>
             <p className="text-[#373636] font-normal text-sm sm:text-base mt-1">
-              And Here’s Why You Should
+              Welcome back, {user?.fullName || 'Student'}! And Here’s Why You Should
             </p>
 
             {/* Badges */}
@@ -42,7 +42,7 @@ export default function Dashboard() {
             </ul>
 
             {/* Accent underline title */}
-            <div className="border-b-4 border-[#C2F578] pb-2 mt-8 text-3xl sm:text-4xl lg:text-5xl uppercase font-bold text-[#373636] tracking-tight">
+            <div className="border-b-4 border-[#C2F578] pb-2 mt-6 sm:mt-8 text-2xl sm:text-4xl lg:text-5xl uppercase font-bold text-[#373636] tracking-tight">
               Learn With ClassIQ
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Dashboard() {
             <img 
               src="/assets/dashboard-JcnWWWB4.svg" 
               alt="Dashboard Visual" 
-              className="relative z-10 max-h-72 object-contain" 
+              className="relative z-10 max-h-52 sm:max-h-72 w-full object-contain" 
             />
           </div>
         </motion.div>

@@ -21,17 +21,17 @@ export default function SolutionSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="w-full lg:w-5/12 h-[420px] bg-[#ECEDEF] rounded-2xl relative flex justify-center items-center overflow-hidden border border-[#EAEDEB] shadow-sm"
+            className="w-full lg:w-5/12 h-[320px] sm:h-[380px] lg:h-[420px] bg-[#ECEDEF] rounded-2xl relative flex justify-center items-center overflow-hidden border border-[#EAEDEB] shadow-sm"
           >
             {/* Ambient Lime Glow Backdrop */}
             <div className="absolute w-64 h-64 blur-3xl opacity-40 rounded-full bg-[#C2F578] -top-10 z-0 pointer-events-none" />
             
             {/* Center card platform */}
-            <div className="bg-[#f5f5f5] shadow-lg w-[75%] h-[60%] rounded-xl z-10 flex items-center justify-center p-4 border border-white">
+            <div className="bg-[#f5f5f5] shadow-lg w-[85%] sm:w-[75%] h-[68%] sm:h-[60%] rounded-xl z-10 flex items-center justify-center p-3 sm:p-4 border border-white">
               <img 
                 src="/assets/feature_img-efng2f6_.svg" 
                 alt="ClassIQ Platform Solution" 
-                className="h-64 object-contain z-20 transition-transform duration-500 hover:scale-105" 
+                className="h-44 sm:h-56 lg:h-64 max-w-full object-contain z-20 transition-transform duration-500 hover:scale-105" 
               />
             </div>
           </motion.div>

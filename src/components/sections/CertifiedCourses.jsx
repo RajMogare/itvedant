@@ -31,9 +31,6 @@ export default function CertifiedCourses() {
           <p className="text-2xl sm:text-3xl text-[#373636] font-light">
             Certified Courses for <span className="font-bold">Professionals</span>
           </p>
-          <p className="text-sm text-[#686868] mt-2 max-w-md mx-auto">
-            Practical, industry-recognized certificates designed to accelerate your technical career.
-          </p>
         </div>
 
         {/* 3 Cards Grid */}

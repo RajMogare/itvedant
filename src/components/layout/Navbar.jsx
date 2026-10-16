@@ -15,17 +15,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           
           {/* Left: Logo & Nav Links */}
-          <div className="flex items-center gap-10">
-            <Link to="/" className="flex items-center gap-2 group">
+          <div className="flex items-center gap-6 sm:gap-10">
+            <Link to="/" className="flex items-center gap-2 group shrink-0">
               <img 
                 src="/assets/logo-CSs2XfzI.png" 
                 alt="ClassIQ Logo" 
-                className="h-9 hidden sm:block object-contain transition-transform group-hover:scale-105" 
-              />
-              <img 
-                src="/assets/m-logo-6JdjZV3d.svg" 
-                alt="ClassIQ Icon" 
-                className="h-9 block sm:hidden object-contain" 
+                className="h-8 sm:h-9 object-contain transition-transform group-hover:scale-105" 
               />
             </Link>
 

@@ -33,12 +33,7 @@ export default function Footer() {
               <img 
                 src="/assets/logo-CSs2XfzI.png" 
                 alt="ClassIQ Logo" 
-                className="h-9 opacity-90 object-contain hidden sm:block" 
-              />
-              <img 
-                src="/assets/m-logo-6JdjZV3d.svg" 
-                alt="ClassIQ Logo" 
-                className="h-9 sm:hidden block object-contain" 
+                className="h-8 sm:h-9 opacity-90 object-contain" 
               />
             </Link>
 
@@ -48,18 +43,18 @@ export default function Footer() {
                 Subscribe for the latest courses, tips, and updates. Join our learning community today!
               </p>
 
-              <form onSubmit={handleSubscribe} className="bg-white w-fit rounded-lg p-1.5 mt-5 flex items-center shadow-sm border border-[#EAEDEB]">
+              <form onSubmit={handleSubscribe} className="bg-white w-full sm:w-fit rounded-xl sm:rounded-lg p-1.5 mt-5 flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-0 shadow-sm border border-[#EAEDEB]">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email"
-                  className="rounded-lg px-4 py-2 outline-none w-64 sm:w-72 text-sm text-[#373636] placeholder-[#88868d]"
+                  className="rounded-lg px-4 py-2.5 sm:py-2 outline-none w-full sm:w-72 text-sm text-[#373636] placeholder-[#88868d]"
                   required
                 />
                 <button
                   type="submit"
-                  className="bg-[#C2F578] hover:bg-[#a5d064] text-[#373636] font-semibold text-xs px-5 py-2.5 rounded-lg transition-colors flex items-center gap-1.5"
+                  className="bg-[#C2F578] hover:bg-[#a5d064] text-[#373636] font-semibold text-xs px-5 py-2.5 rounded-lg transition-colors flex items-center justify-center gap-1.5 shrink-0"
                 >
                   {subscribed ? <Check className="w-3.5 h-3.5 text-black" /> : null}
                   <span>{subscribed ? 'Subscribed' : 'Subscribe'}</span>

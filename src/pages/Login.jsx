@@ -34,7 +34,7 @@ export default function Login() {
         initial={{ opacity: 0, scale: 0.96 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.35 }}
-        className="bg-[#ECECEE] w-full max-w-[380px] p-8 sm:p-10 rounded-2xl shadow-sm border border-[#E0E0E2]"
+        className="bg-[#ECECEE] w-full max-w-[380px] p-6 sm:p-10 rounded-2xl shadow-sm border border-[#E0E0E2]"
       >
         {/* Title */}
         <h1 className="text-2xl font-bold text-black text-center mb-8">

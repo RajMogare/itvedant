@@ -9,9 +9,9 @@ export default function Partners() {
             Trusted by 5,000+ Companies Worldwide
           </p>
 
-          <div className="flex flex-wrap items-center justify-center sm:justify-between gap-6 sm:gap-10 mt-8 w-full max-w-5xl">
+          <div className="flex flex-wrap items-center justify-center sm:justify-between gap-4 sm:gap-8 md:gap-10 mt-8 w-full max-w-5xl">
             {/* Google */}
-            <div className="w-28 sm:w-32 h-8 flex items-center justify-center">
+            <div className="w-24 sm:w-28 md:w-32 h-8 flex items-center justify-center">
               <img 
                 src="/assets/google-76-GYqTX.svg" 
                 alt="Google" 

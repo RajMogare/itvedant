@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { coursesData } from '../../data/mockData';
 import { useAuth } from '../../context/AuthContext';
-import { ArrowUpRight, CheckCircle2, Star, Sparkles } from 'lucide-react';
+import { ArrowUpRight, CheckCircle2, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function CourseGrid({ limit }) {
@@ -66,7 +66,7 @@ export default function CourseGrid({ limit }) {
                     <h3 className="text-[#373636] font-semibold text-base line-clamp-1">
                       {course.title}
                     </h3>
-                    <p className="text-[#686868] text-xs mt-1.5 line-clamp-2 h-8 leading-relaxed">
+                    <p className="text-[#686868] text-xs mt-1.5 line-clamp-2 h-12 leading-relaxed">
                       {course.desc}
                     </p>
                   </div>
