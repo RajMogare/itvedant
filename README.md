@@ -1,15 +1,3 @@
-# ClassIQ — EdTech Web Platform
-
-Frontend Developer Practical Assessment for **Itvedant**.
-Pixel-accurate implementation matching the provided Figma design & reference deployment at [classiqapp.vercel.app](https://classiqapp.vercel.app/).
-
----
-
-## 🚀 Live Demo & Reference
-* **Live Reference:** [https://classiqapp.vercel.app/](https://classiqapp.vercel.app/)
-* **Implementation:** Built using **React (Vite) + Tailwind CSS + Framer Motion + Lucide React**.
-
----
 
 ## 🛠️ Technologies Used
 * **Framework:** React 18+ (via Vite)
